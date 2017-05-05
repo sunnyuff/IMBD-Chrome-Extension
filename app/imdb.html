@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <title>IMDB</title>
+        <link rel="stylesheet" href="css/imdb.css"/>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/imdb.js"></script>
+    </head>
+    <body>
+        <form class="form-search" id="search" onsubmit="return false;">
+            <fieldset>
+                <div id="title">
+                    <label class="control-label" for="t">Title:</label>
+                    <input type="text" id="t" name="t" class="input-small">
+                </div>
+                <div id="year">
+                    <label class="control-label" for="y">Year:</label>
+                    <input type="text" id="y" name="y" class="input-small">
+                </div>
+                <button id="search-submit" type="button" class="btn-sm btn-primary">Search</button>
+                <button id="search-reset" type="reset" class="btn-sm">Reset</button>
+                <img src="img/Loader.GIF"  class="loader"/>
+            </fieldset>
+        </form>
+        <div id="result"></div>
+    </body>
+</html>

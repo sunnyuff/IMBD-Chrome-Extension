@@ -1,0 +1,18 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "app/imdb.html"
+   },
+   "description": "This is a chrome extension which makes users to get info about a movie right in their browser(chrome)",
+   "icons": {
+      "128": "icon-big.png",
+      "19": "icon.png",
+      "48": "icon-medium.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz2t5OtjR1TSL4vTrLkwIFgGAEM8hwGW1njCc8+NLGPx47OY2pcYokjZJT9bqeLxVIaOzOZRCguIVS9ETk3KAh3ABEUGxDKM9UEhimw4ItWMQiyboxCknusrn+EkOqzpZo/0o2QgN2cIyWgAZHjcqZnfg7wRQRWP6GQ4Osoo1mXG2TYS88f/i3EpjTMHHbu16UD65TFWa4oShHTq1UwSeAJzXWeuAIivM8mklxGSNtqukO98Zb1jMcZy44sqbDJ9iiP0+I3cf6PqXll+hoZArHQub6yCc+atyP0dku2kPUCu89x3Gmir/g03N4UkoTbs2oP2+WmTSUFRzG4fY1s0qbQIDAQAB",
+   "manifest_version": 2,
+   "name": "IMDB (Unofficial)",
+   "permissions": [ "http://www.omdbapi.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}
